@@ -165,7 +165,7 @@ var (
 	}
 )
 
-func init() {
+func Init() {
 	sql.Register("aci", Driver)
 
 	// set defaultCharset to AL32UTF8

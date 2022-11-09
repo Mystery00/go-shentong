@@ -65,3 +65,9 @@ Libs: -L${libdir} -laci
 
 # 编译
 设置环境变量 `PKG_CONFIG_PATH` ，值为aci.pc所在目录，然后执行 go build 即可。
+
+# 运行
+记得先执行以下代码
+```go
+shentong.Init()
+```
